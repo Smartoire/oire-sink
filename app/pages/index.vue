@@ -1,9 +1,6 @@
-<template>
-  <main class="flex flex-col justify-center">
-    <HomeTwitter />
-    <HomeHero />
-    <HomeFeatures />
-    <HomeLogos />
-    <HomeCta />
-  </main>
-</template>
+<script setup>
+navigateTo('https://smartoire.com', {
+  external: true,
+  redirectCode: 301 // use 302 if temporary
+})
+</script>
